@@ -34,7 +34,7 @@ const App = () => {
     setNewTodo('')
   }
 
-  return <div>
+  return <div className='todo-list'>
     <form onSubmit={handleSubmit}>
       <input
       type='text'
