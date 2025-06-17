@@ -24,7 +24,7 @@ const TodoContainer = () => {
     e.preventDefault();
 
     if (!newTodo.trim()) {
-      alert("내용을 입력해주세요.");
+      return alert("내용을 입력해주세요.");
     }
 
     setTodos([

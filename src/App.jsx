@@ -1,5 +1,7 @@
 import React from "react";
-import TodoContainer from "./components/TodoContainer";
+import './App.css'
+import "the-new-css-reset/css/reset.css";
+import TodoContainer from "./components/todo/TodoContainer";
 
 const App = () => {
   return <TodoContainer />;
